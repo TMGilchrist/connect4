@@ -94,7 +94,7 @@ public class MiniMaxScript : MonoBehaviour
     }
 
 
-    //Negamax with alpha-beta pruning. Not working.
+    //Negamax with alpha-beta pruning.
     public int abNegaMax(int depth, int player, int alpha, int beta)
     {
         int evalResult = eval.Evaluate(tempBoard, player, depth);
